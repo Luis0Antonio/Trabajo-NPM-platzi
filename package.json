@@ -1,0 +1,31 @@
+{
+  "name": "say-hi",
+  "version": "0.1.0",
+  "description": "this module just say hi... It's my first module",
+  "main": "dist/src/say-hi.js",
+  "scripts": {
+    "build": "babel src/say-hi.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis0Antonio/Trabajo-NPM-platzi.git"
+  },
+  "keywords": [
+    "say-hi",
+    "javascript",
+    "platzi"
+  ],
+  "author": "Luis Schmiel <luis.antonioarce@hotmail.com> (luisarceparedes.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luis0Antonio/Trabajo-NPM-platzi/issues"
+  },
+  "homepage": "https://github.com/Luis0Antonio/Trabajo-NPM-platzi#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
